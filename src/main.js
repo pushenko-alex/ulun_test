@@ -41,3 +41,4 @@ packs.addEventListener("click", event => {
 
   selectPack(Number(button.dataset.index));
 });
+console.log('START')
