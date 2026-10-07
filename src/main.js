@@ -40,4 +40,5 @@ packs.addEventListener("click", event => {
   if (!button) return;
 
   selectPack(Number(button.dataset.index));
+  console.log('CHANGE ON CLICK')
 });
